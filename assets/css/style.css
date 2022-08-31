@@ -1425,6 +1425,8 @@ hr {
 
 .modal_btn_soc {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -1882,6 +1884,19 @@ hr {
     .header__logo {
         font-size: 22px;
     }
+    
+    #btn {
+        margin-left: 10px;
+    }
+    
+}
+
+@media (max-width: 370px) {
+    
+    #btn_2 {
+        margin-left: 0px;
+    }
+    
 }
 
 #telephone {
