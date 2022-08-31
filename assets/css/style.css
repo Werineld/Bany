@@ -312,6 +312,7 @@ hr {
 
 
 #btn_2 {
+    margin-left: 10px;
     padding: 8px 35.5px;
 }
 
@@ -1189,7 +1190,12 @@ hr {
     color: #fce38a;
 }
 
+#adress {
+    margin-top: 1rem;
+}
+
 .ul_photo {
+    margin-top: 2rem;
     border-radius: 20px;
     width: 360px;
 }
@@ -1265,7 +1271,6 @@ hr {
 .modal.show {
         visibility: visible;
         z-index: 1000000;
-        overflow-y: hidden;
     }
 
 
@@ -1350,7 +1355,7 @@ hr {
 }
 
 .modal-work__text {
-    margin-bottom: 8.66rem;
+    margin-bottom: 2rem;
 
     font-size: .8rem;
     line-height: 2;
@@ -1374,6 +1379,7 @@ hr {
 }
 
 .modal__close {
+    color: #fce38a;
     font-size: 20px;
     width: 34px;
     height: 39px;
@@ -1417,7 +1423,9 @@ hr {
     font-weight: 400;
 }
 
-
+.modal_btn_soc {
+    display: flex;
+}
 
 
 /***************** MEDIA *******************/
@@ -1544,6 +1552,7 @@ hr {
         /* modal */
     .modal {
         padding: 0;
+        overflow-y: auto;
         
     }
     
@@ -1558,8 +1567,8 @@ hr {
         align-items: center;
     }
     
-    .modal__dialog {
-        
+    .modal__show {
+        overflow: auto;
     }
     
     .modal-work__photo {
@@ -1571,6 +1580,7 @@ hr {
     
     .modal-work__content {
         width: 100%;
+        max-height: none;
     }
     
 }
@@ -1762,7 +1772,7 @@ hr {
     .stat__item {
         width: 100%;
 
-        border-bottom: 1px solid #b5eae0;
+        border-bottom: 1px solid #fff;
     }
 
     .stat__item:last-child {
@@ -1855,6 +1865,24 @@ hr {
 
 }
 
+
+@media (max-width: 494px) {
+    .intro__title {
+        font-size: 30px;;
+        
+    }
+}
+
+@media (max-width: 394px) {
+    .intro__title {
+        font-size: 25px;;
+        
+    }
+    
+    .header__logo {
+        font-size: 22px;
+    }
+}
 
 #telephone {
     height: 30px;
